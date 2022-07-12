@@ -246,7 +246,22 @@ let card_items = [
     {english : 'Watch (ige)',hungarian : "Néz, szemmel tart"},
     {english : 'Win (ige)',hungarian : "Nyer"},
     {english : 'Wonder (ige)',hungarian : "Kíváncsi, azon tűnődik, szeretné tudni"},
-    {english : 'Write',hungarian : "Ír"}
+    {english : 'Write',hungarian : "Ír"},
+    {english : 'Nice',hungarian : "Rendes, kellemes, szép, szimpatikus"},
+    {english : 'Pregnant',hungarian : "Állapotos, terhes"},
+    {english : 'Paint (ige)',hungarian : "Fest, megfest, lefest, befest, mázol"},
+    {english : 'Wall (Főnév)',hungarian : "Fal, sorfal"},
+    {english : 'Pencil (Főnév)',hungarian : "Ceruza"},
+    {english : 'Table (Főnév)',hungarian : "Asztal"},
+    {english : 'Pillow (Főnév)',hungarian : "Párna, vánkos"},
+    {english : 'Soup',hungarian : "Leves"},
+    {english : 'Living room',hungarian : "Nappali"},
+    {english : 'Shoe (Főnév)',hungarian : "Cipő, félcipő"},
+    {english : 'Past (Főnév)',hungarian : "Múlt"},
+    {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
+    {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
+    {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
+    {english : 'Easter',hungarian : "Húsvét"}
 ]
 
 let card_items_load = [
@@ -457,43 +472,48 @@ let card_items_load = [
     {english : 'Watch (ige)',hungarian : "Néz, szemmel tart"},
     {english : 'Win (ige)',hungarian : "Nyer"},
     {english : 'Wonder (ige)',hungarian : "Kíváncsi, azon tűnődik, szeretné tudni"},
-    {english : 'Write',hungarian : "Ír"}
+    {english : 'Write',hungarian : "Ír"},
+    {english : 'Nice',hungarian : "Rendes, kellemes, szép, szimpatikus"},
+    {english : 'Pregnant',hungarian : "Állapotos, terhes"},
+    {english : 'Paint (ige)',hungarian : "Fest, megfest, lefest, befest, mázol"},
+    {english : 'Wall (Főnév)',hungarian : "Fal, sorfal"},
+    {english : 'Pencil (Főnév)',hungarian : "Ceruza"},
+    {english : 'Table (Főnév)',hungarian : "Asztal"},
+    {english : 'Pillow (Főnév)',hungarian : "Párna, vánkos"},
+    {english : 'Soup',hungarian : "Leves"},
+    {english : 'Living room',hungarian : "Nappali"},
+    {english : 'Shoe (Főnév)',hungarian : "Cipő, félcipő"},
+    {english : 'Past (Főnév)',hungarian : "Múlt"},
+    {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
+    {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
+    {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
+    {english : 'Easter',hungarian : "Húsvét"}
 ]
 
 let new_card_items = [
-    {english : 'Nice',hungarian : "Rendes, kellemes, szép, szimpatikus"},
-    {english : 'Pregnant',hungarian : "Állapotos, terhes"},
-    {english : 'Paint (ige)',hungarian : "Fest, megfest, lefest, befest, mázol"},
-    {english : 'Wall (Főnév)',hungarian : "Fal, sorfal"},
-    {english : 'Pencil (Főnév)',hungarian : "Ceruza"},
-    {english : 'Table (Főnév)',hungarian : "Asztal"},
-    {english : 'Pillow (Főnév)',hungarian : "Párna, vánkos"},
-    {english : 'Soup',hungarian : "Leves"},
-    {english : 'Living room',hungarian : "Nappali"},
-    {english : 'Shoe (Főnév)',hungarian : "Cipő, félcipő"},
-    {english : 'Past (Főnév)',hungarian : "Múlt"},
-    {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
-    {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
-    {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
-    {english : 'Easter',hungarian : "Húsvét"}
+    {english : 'Happily',hungarian : "Boldogan"},
+    {english : 'Sadly',hungarian : "Szomorúan"},
+    {english : 'Slowly',hungarian : "Lassan"},
+    {english : 'Quietly',hungarian : "Halkan"},
+    {english : 'Easily',hungarian : "Egyszerűen"},
+    {english : 'Frequently',hungarian : "Gyakran"},
+    {english : 'Generally',hungarian : "Átlagosan"},
+    {english : 'Usually',hungarian : "Általában"},
+    {english : 'Gently',hungarian : "Gyengéden, finoman"},
+    {english : 'Hardly',hungarian : "Nehezen, alig"}
 ]
 
 let new_card_items_load = [
-    {english : 'Nice',hungarian : "Rendes, kellemes, szép, szimpatikus"},
-    {english : 'Pregnant',hungarian : "Állapotos, terhes"},
-    {english : 'Paint (ige)',hungarian : "Fest, megfest, lefest, befest, mázol"},
-    {english : 'Wall (Főnév)',hungarian : "Fal, sorfal"},
-    {english : 'Pencil (Főnév)',hungarian : "Ceruza"},
-    {english : 'Table (Főnév)',hungarian : "Asztal"},
-    {english : 'Pillow (Főnév)',hungarian : "Párna, vánkos"},
-    {english : 'Soup',hungarian : "Leves"},
-    {english : 'Living room',hungarian : "Nappali"},
-    {english : 'Shoe (Főnév)',hungarian : "Cipő, félcipő"},
-    {english : 'Past (Főnév)',hungarian : "Múlt"},
-    {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
-    {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
-    {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
-    {english : 'Easter',hungarian : "Húsvét"}
+    {english : 'Happily',hungarian : "Boldogan"},
+    {english : 'Sadly',hungarian : "Szomorúan"},
+    {english : 'Slowly',hungarian : "Lassan"},
+    {english : 'Quietly',hungarian : "Halkan"},
+    {english : 'Easily',hungarian : "Egyszerűen"},
+    {english : 'Frequently',hungarian : "Gyakran"},
+    {english : 'Generally',hungarian : "Átlagosan"},
+    {english : 'Usually',hungarian : "Általában"},
+    {english : 'Gently',hungarian : "Gyengéden, finoman"},
+    {english : 'Hardly',hungarian : "Nehezen, alig"}
 ]
 
 //load texts
