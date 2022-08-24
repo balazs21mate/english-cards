@@ -261,7 +261,17 @@ let card_items = [
     {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
     {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
     {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
-    {english : 'Easter',hungarian : "Húsvét"}
+    {english : 'Easter',hungarian : "Húsvét"},
+    {english : 'Happily',hungarian : "Boldogan"},
+    {english : 'Sadly',hungarian : "Szomorúan"},
+    {english : 'Slowly',hungarian : "Lassan"},
+    {english : 'Quietly',hungarian : "Halkan"},
+    {english : 'Easily',hungarian : "Egyszerűen"},
+    {english : 'Frequently',hungarian : "Gyakran"},
+    {english : 'Generally',hungarian : "Átlagosan"},
+    {english : 'Usually',hungarian : "Általában"},
+    {english : 'Gently',hungarian : "Gyengéden, finoman"},
+    {english : 'Hardly',hungarian : "Nehezen, alig"}
 ]
 
 let card_items_load = [
@@ -487,33 +497,63 @@ let card_items_load = [
     {english : 'Store (Főnév)',hungarian : "Üzlet, áruház, kereskedés, bolt"},
     {english : 'Show (Főnév)',hungarian : "Műsor, előadás"},
     {english : 'Box (Főnév)',hungarian : "Láda, szekrény, doboz"},
-    {english : 'Easter',hungarian : "Húsvét"}
+    {english : 'Easter',hungarian : "Húsvét"},
+    {english : 'Happily',hungarian : "Boldogan"},
+    {english : 'Sadly',hungarian : "Szomorúan"},
+    {english : 'Slowly',hungarian : "Lassan"},
+    {english : 'Quietly',hungarian : "Halkan"},
+    {english : 'Easily',hungarian : "Egyszerűen"},
+    {english : 'Frequently',hungarian : "Gyakran"},
+    {english : 'Generally',hungarian : "Átlagosan"},
+    {english : 'Usually',hungarian : "Általában"},
+    {english : 'Gently',hungarian : "Gyengéden, finoman"},
+    {english : 'Hardly',hungarian : "Nehezen, alig"}
 ]
 
 let new_card_items = [
-    {english : 'Happily',hungarian : "Boldogan"},
-    {english : 'Sadly',hungarian : "Szomorúan"},
-    {english : 'Slowly',hungarian : "Lassan"},
-    {english : 'Quietly',hungarian : "Halkan"},
-    {english : 'Easily',hungarian : "Egyszerűen"},
-    {english : 'Frequently',hungarian : "Gyakran"},
-    {english : 'Generally',hungarian : "Átlagosan"},
-    {english : 'Usually',hungarian : "Általában"},
-    {english : 'Gently',hungarian : "Gyengéden, finoman"},
-    {english : 'Hardly',hungarian : "Nehezen, alig"}
+    {english : 'On an average day.',hungarian : "Egy átlagos napon."},
+    {english : 'I get up at 5am.',hungarian : "5-kor kelek."},
+    {english : 'My alarm goes off at 4:30 am.',hungarian : "Az ébresztőm 4:30-kor szólal meg."},
+    {english : 'I snooze until 5.',hungarian : "5-ig szundizok."},
+    {english : 'I make my bed.',hungarian : "Beágyazok."},
+    {english : 'I get dressed.',hungarian : "Felöltözök."},
+    {english : 'I brush my teeth.',hungarian : "Megmosom a fogam."},
+    {english : 'I listen to uplifing jazz music.',hungarian : "Lelkesítő jazz zenét hallgatok."},
+    {english : 'Then',hungarian : "Utánna"},
+    {english : 'After that',hungarian : "Az után"},
+    {english : 'I prepare for my day.',hungarian : "Felkészülök a napomra."},
+    {english : 'I correct my students` homeworks.',hungarian : "Kijavítom a diákjaim háziját."},
+    {english : 'I post on social media.',hungarian : "Posztolok a közösségi hálón."},
+    {english : 'I answer emails and other messsages.',hungarian : "Válaszolok az emailekre és más üzenetekre."},
+    {english : 'I start working from 7 until about 10.',hungarian : "Elkezdek dolgozni 7-től nagyábból 10-ig."},
+    {english : 'When',hungarian : "Amikor"},
+    {english : 'I walk and feed my dog.',hungarian : "Megsétáltatom és megetetem a kutyámat."},
+    {english : 'I have to start my college classes.',hungarian : "El kell kezdenem a főiskolai óráimat."},
+    {english : 'Which is usually from 10 to 12.',hungarian : "Amik általában 10-től 12-ig vannak."},
+    {english : 'I take a break.',hungarian : "Szünetet tartok."}
 ]
 
 let new_card_items_load = [
-    {english : 'Happily',hungarian : "Boldogan"},
-    {english : 'Sadly',hungarian : "Szomorúan"},
-    {english : 'Slowly',hungarian : "Lassan"},
-    {english : 'Quietly',hungarian : "Halkan"},
-    {english : 'Easily',hungarian : "Egyszerűen"},
-    {english : 'Frequently',hungarian : "Gyakran"},
-    {english : 'Generally',hungarian : "Átlagosan"},
-    {english : 'Usually',hungarian : "Általában"},
-    {english : 'Gently',hungarian : "Gyengéden, finoman"},
-    {english : 'Hardly',hungarian : "Nehezen, alig"}
+    {english : 'On an average day.',hungarian : "Egy átlagos napon."},
+    {english : 'I get up at 5am.',hungarian : "5-kor kelek."},
+    {english : 'My alarm goes off at 4:30 am.',hungarian : "Az ébresztőm 4:30-kor szólal meg."},
+    {english : 'I snooze until 5.',hungarian : "5-ig szundizok."},
+    {english : 'I make my bed.',hungarian : "Beágyazok."},
+    {english : 'I get dressed.',hungarian : "Felöltözök."},
+    {english : 'I brush my teeth.',hungarian : "Megmosom a fogam."},
+    {english : 'I listen to uplifing jazz music.',hungarian : "Lelkesítő jazz zenét hallgatok."},
+    {english : 'Then',hungarian : "Utánna"},
+    {english : 'After that',hungarian : "Az után"},
+    {english : 'I prepare for my day.',hungarian : "Felkészülök a napomra."},
+    {english : 'I correct my students` homeworks.',hungarian : "Kijavítom a diákjaim háziját."},
+    {english : 'I post on social media.',hungarian : "Posztolok a közösségi hálón."},
+    {english : 'I answer emails and other messsages.',hungarian : "Válaszolok az emailekre és más üzenetekre."},
+    {english : 'I start working from 7 until about 10.',hungarian : "Elkezdek dolgozni 7-től nagyábból 10-ig."},
+    {english : 'When',hungarian : "Amikor"},
+    {english : 'I walk and feed my dog.',hungarian : "Megsétáltatom és megetetem a kutyámat."},
+    {english : 'I have to start my college classes.',hungarian : "El kell kezdenem a főiskolai óráimat."},
+    {english : 'Which is usually from 10 to 12.',hungarian : "Amik általában 10-től 12-ig vannak."},
+    {english : 'I take a break.',hungarian : "Szünetet tartok."}
 ]
 
 //load texts
